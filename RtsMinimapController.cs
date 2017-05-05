@@ -136,7 +136,7 @@ public class RtsMinimapController : MonoBehaviour {
 
        
 
-        LimitCamera();
+  public void LimitCamera();
       //  if (!paddedMinimapBounds.Contains(RtsPlayerController.instance.transform.position)) {
 
             Vector3 screenPos = c_MiniCam.WorldToScreenPoint(RtsPlayerController.instance.transform.position);
