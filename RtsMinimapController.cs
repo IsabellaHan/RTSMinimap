@@ -134,7 +134,7 @@ public class RtsMinimapController : MonoBehaviour {
        
         Vector3 targetPos = new Vector3 (RtsPlayerController.instance.transform.position.x, RtsPlayerController.instance.transform.position.y, RtsPlayerController.instance.transform.position.z);
 
-       
+       }
 
   public void LimitCamera();
       //  if (!paddedMinimapBounds.Contains(RtsPlayerController.instance.transform.position)) {
